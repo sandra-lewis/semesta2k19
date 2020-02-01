@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+    padding: 0;
+    font-family: Times New Roman
+}
+
+body {
+	background-image: url(images/purple.png);
+	background-position: center
+}
+
+.home img {
+	width: 50px;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 5%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.home a:hover {
+	opacity: 0.5
+}
+
+.home h1, .home h2 {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Arial;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.home h1 {
+	font-size: 32px;
+	margin-top: 8%
+}
+
+.home h2 {
+	font-size: 16px;
+	margin-top: 2%;
+	margin-bottom: 12%	
+}
+
+iframe {
+	margin: 10%;
+	width: 80%;
+	height: 450px;
+	border: none
+}
+
+.rules {
+	padding: 10%;
+	display: table;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 15%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 5px double #FFFFFF;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.rules h1 {
+	text-align: center;
+	color: #CCCCFF;
+	font-size: 28px;
+	margin-bottom: 10%
+}
+
+.rules ul {
+	margin-bottom: 10%;
+	color: #FFFFFF
+}
+
+.rules ul li {
+	margin-bottom: 3%;
+	font-size: 20px
+}
+
+.rules a {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FF3333
+}
+
+.rules a:hover {
+	color: #CCCCCC
+}
+
+.copyright {
+	background-color: #999999;
+	padding: 3%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.copyright p {
+	font-size: 18px;	
+	font-weight: bold;
+	text-align: center
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+
+@media screen and (min-width: 768px) {
+	
+	.home img {
+		width: 60px;
+		height: 60px;
+		margin-left: 2%;
+		margin-top: 2%
+	}
+	
+	.home h1 {
+		font-size: 40px;
+		margin-top: 0
+	}
+
+	.home h2 {
+		font-size: 22px;
+		margin-top: 1%;
+		margin-bottom: 5%	
+	}
+	
+	iframe {
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		width: 40%;
+		height: 500px
+	}
+	
+	.rules {
+		margin-top: 0;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 10%;
+		padding: 5%
+	}
+	
+	.rules h1 {
+		font-size: 36px;
+		margin-bottom: 8%
+	}
+
+	.rules ul {
+		margin-bottom:8%
+	}
+
+	.rules ul li {
+		margin-bottom: 1%;
+		font-size: 24px
+	}
+
+	.rules a {
+		font-size: 24px
+	}
+	
+	.copyright {
+		padding: 1%
+	}
+
+	.copyright p {
+		font-size: 20px
+	}
+}

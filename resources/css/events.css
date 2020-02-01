@@ -1,0 +1,325 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0	
+}
+
+h1 {
+    text-align: center;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+h4 {
+    font-size: 18px;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+ol, ul {
+    margin-bottom: 15%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+ol li, ul li {
+    margin-top: 2%;
+    font-size: 18px
+}
+
+ul li {
+	color: #FFFFFF;
+	list-style-type: circle
+}
+
+#events-list {
+    padding: 5%;
+	background-image: url(images/blackstars.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+#events-list .home img {
+	width: 50px;
+	height: 50px;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+#events-list h1, #events-list h2 {
+	text-align: center;
+	color: #FFFFFF;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+#events-list h1 {
+	font-size: 32px;
+	margin-top: 8%
+}
+
+#events-list h2 {
+	font-size: 16px;
+	margin-top: 2%;
+	margin-bottom: 12%	
+}
+
+#events-list .events h3 {
+    font-size: 42px;
+	margin-bottom: 5%;
+    font-family: Times New Roman;
+	font-style: italic;
+    color: #FFFFFF;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+#events-list a:hover {
+    opacity: 0.5
+}
+
+#events-list .events img {
+    height: 10%;
+    width: 47%;
+	margin: 1%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+#bestmanager, #mastermind, #treasurehunt, #photojournalism, #dessertmaking {
+    padding: 18%;
+    background-image: url(images/lightblue.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+#quiz, #turncoat, #mockpress, #videoparody, #dance {
+    padding: 18%;
+    background-image: url(images/grey.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+.general-rules {
+    padding: 18%;
+    background-image: url(images/galaxy.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+.general-rules h2 {
+	text-align: center;
+	margin-bottom: 15%;
+	color: #FFFFFF;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.head1 h3, .head2 h3, .headm1 h3, .headm2 h3, .headm3 h3 {
+    margin-bottom: 1%;
+    font-size: 20px;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.head1 img, .head2 img, .headm1 img, .headm2 img, .headm3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.head2 img, .headm2 img, .headm3 img {
+    margin-top: 8%
+}
+
+.scrollup {
+    border: solid black;
+    border-width: 0 7px 7px 0;
+    display: none;
+    padding: 7px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer
+}
+
+.copyright {
+	background-color: #999999;
+	padding: 3%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.copyright p {
+	font-size: 18px;	
+	font-weight: bold;
+	text-align: center
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+
+@media screen and (min-width: 768px) {
+		
+    h3 {
+        margin-bottom: 4%; 
+        font-size: 22px
+    }
+
+    h4 {
+        font-size: 22px;
+        margin-left: 15%
+    }
+
+    ol, ul {
+        margin-bottom: 4%
+    }
+
+    ol li, ul li {
+        margin-top: 1%;
+        font-size: 22px;
+        margin-left: 15%;
+		margin-right: 15%
+    }
+	
+	#events-list {
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 8%
+    }
+	
+	#events-list .home img {
+		width: 60px;
+		height: 60px
+	}
+	
+	#events-list h1 {
+		font-size: 40px;
+		margin-top: 0
+	}
+
+	#events-list h2 {
+		font-size: 22px;
+		margin-top: 1%;
+		margin-bottom: 5%	
+	}
+	
+    #events-list .events h3 {
+         font-size: 62px;
+		 margin-bottom: 2%
+    }
+    
+    #events-list .events img {
+        width: 17%
+    }
+
+	#bestmanager, #quiz, #mastermind, #turncoat, #treasurehunt {
+		padding: 5%;
+		display: table;
+		width: 90%
+	}
+	
+	#mockpress, #photojournalism, #videoparody, #dessertmaking, #dance {
+		padding: 5%;
+		display: table;
+		width: 90%
+	}
+	
+	.general-rules {
+		padding: 3%
+	}
+	
+	.general-rules h2 {
+		margin-top: 2%;
+		margin-bottom: 5%;
+		font-size: 30px
+	}
+	
+	.head1 h3, .head2 h3, .headm1 h3, .headm2 h3, .headm3 h3 {
+		margin-bottom: 1%;
+		font-size: 20px
+	}
+
+    .head1 img, .head2 img, .headm1 img, .headm2 img, .headm3 img {
+        width: 100px;
+        height: 100px;
+		margin-top: 0;
+        margin-bottom: 3%
+    }
+
+    .head1, .head2 {
+        width: 50%;
+        float: left;
+        margin-right: -10%;
+        padding-right: 5%;
+		display: inline-table
+    }
+
+    .head1, .headm1 {
+       margin-left: 2%
+    }
+
+    .headm1, .headm2, .headm3 {
+        width: 31%;
+        float: left;
+		padding-right: 1%;
+		display: inline-table
+    }
+	
+	.scrollup {
+        border-width: 0 10px 10px 0;
+        padding: 10px
+    }
+	
+	.copyright {
+		padding: 1%
+	}
+
+	.copyright p {
+		font-size: 20px
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	#events-list img { 
+		height: 6%
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+	
+	#events-list img { 
+		height: 18%
+	}
+}
+	

@@ -1,0 +1,350 @@
+* {
+	margin: 0;
+    padding: 0;
+    font-family: Arial
+}
+
+body {
+    background-image: url(images/universe.gif)
+}
+
+.header h1, .header h2, .header h3, .header h4, .header h5 {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.header h1 {
+	font-size: 50px;
+	font-family: Times New Roman;
+	font-style: italic;
+	color: #FFFFFF;
+	margin-top: 20%
+}
+
+.header h2 {
+	font-size: 32px;
+	color: #99CCFF;
+	margin-top: 20%
+}
+
+.header h3 {
+	font-size: 24px;
+	font-family: Times New Roman;
+	font-style: italic;
+	color: #FFFFFF;
+	margin-top: 2%;
+	margin-bottom: 25%
+}
+
+.header h4 {
+	font-size: 28px;
+	color: #996699;
+	margin-top: 20%
+}
+
+.header h5 {
+	font-size: 16px;
+	color: #99CCFF;
+	margin-top: 2%	
+}
+
+.about, .contact, .events h4, .date, .venue, .register h4 {
+	width: 40%;	
+	padding: 1%;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: table;
+	text-align: center;
+	border: 2px solid #66FFFF;
+	color: #66FFFF;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.contact, .events h4, .date, .venue, .register h4 {
+	margin-top: 8%
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+	background-color: rgb(0, 0, 0);	
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
+.about-content, .contact-content, .venue-content {
+	position: relative;
+	margin-top: 25%;
+	margin-bottom: 25%;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 5%;
+    width: 80%;
+	-webkit-animation: moveDown 2s;
+	animation: moveDown 2s
+}
+
+.date-content {
+	position: relative;
+	margin-top: 50%;
+	margin-bottom: 25%;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 5%;
+    width: 80%;
+	-webkit-animation: moveDown 3s;
+	animation: moveDown 3s
+}
+
+.about-content {
+	background-color: #660033
+}
+
+.contact-content {
+	background-color: #000033
+}
+
+.date-content {
+	background-color: #CC0000
+}
+
+.venue-content {
+	background-color: #330033
+}
+
+.about:hover, .contact:hover, .date:hover, .venue:hover {
+	border: 2px solid #CCCCCC;
+	color: #CCCCCC;
+	cursor: pointer
+}
+
+.events a, .register a {
+	color: #66FFFF;
+	text-decoration: none
+}
+
+.events h4:hover, .register h4:hover {
+	color: #CCCCCC;
+	border: 2px solid #CCCCCC;
+	cursor: pointer
+}
+
+.about-content h3, .contact-content h3, .date-content h3, .venue-content h3 {
+	color: #FFFFFF;
+	margin-bottom: 5%;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 26px	
+}
+
+.about-content p {
+	color: #D3D3D3;
+	text-align: justify;
+	margin: 3%;
+	font-size: 20px
+}
+
+.contact-content p {
+	font-size: 22px;
+    text-align: center;	
+	color: #FFFFFF
+}
+
+.contact-content img {
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 8%
+}
+
+.venue-content iframe {
+	width: 100%;
+	margin-top: 5%
+}
+
+.contact-content h2, .date-content h2, .venue-content h2 {
+	text-align: center;
+	font-size: 26px;
+	margin-top: 7%
+}
+
+.contact-content h2 {
+	color: #B2B2B2
+}
+
+.date-content h2 {
+	color: #FFFF66
+}
+
+.venue-content h2 {
+	color: #CCCCFF
+}
+
+.close {
+    color: #CCCCCC;
+    float: right;
+    font-size: 35px;
+    font-weight: bold
+}
+
+.close:hover, .close:focus {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.socialmedia, .copyright {
+	padding: 3%;
+	-webkit-animation: fadeIn 3s ease-in;
+	animation: fadeIn 3s ease-in
+}
+
+.socialmedia {
+	margin-top: 15%;
+	background-color: #000033;
+	text-align: center
+}
+
+.copyright {
+	background-color: #999999
+}
+
+.socialmedia a {
+	color: #FFFFFF;
+	font-size: 18px;	
+	font-weight: bold	
+}
+
+.socialmedia a:hover {
+	color: #CCCCCC
+}
+
+.copyright p {
+	text-align: center;
+	font-size: 18px;	
+	font-weight: bold	
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@-webkit-keyframes moveDown {
+	0% {top: -300px; opacity: 0}
+	100% {top: 0; opacity: 1}
+}
+
+@keyframes moveDown {
+	0% {top: -300px; opacity: 0}
+	100% {top: 0; opacity: 1}
+}
+
+
+@media screen and (min-width: 768px) {
+	
+	.header h1 {
+		font-size: 65px;
+		margin-top: 8%
+	}
+
+	.header h2 {
+		font-size: 40px;
+		margin-top: 8%
+	}
+
+	.header h3 {
+		font-size: 35px;
+		margin-top: 1%;
+		margin-bottom: 10%
+	}
+
+	.header h4 {
+		font-size: 35px;
+		margin-top: 8%
+	}
+	
+	.header h5 {
+		font-size: 22px;
+		margin-top: 1%
+	}
+	
+	.about, .contact, .events h4, .date, .venue, .register h4 {
+		width: 15%;
+		margin-left: 10%;
+		margin-right: 5%;
+		margin-top: 5%;
+		float: left;
+		padding: 8px;
+		font-size: 24px
+	}
+	
+	.about-content, .date-content {
+		padding: 2%;
+		margin-top: 15%;
+		margin-bottom: 15%
+	}
+	
+	.contact-content, .venue-content {
+		padding: 2%;
+		margin-top: 5%;
+		margin-bottom: 5%
+	}
+	
+	.about-content, .venue-content {
+		width: 60%
+	}
+	
+	.contact-content, .date-content {
+		width: 30%
+	}
+	
+	.about-content p {
+		margin: 2%
+	}
+	
+	.contact-content img {
+		width: 100px;
+		height: 100px
+	}
+
+	.contact-content h2, .venue-content h2 {
+		margin-top: 3%
+	}
+	
+	.venue-content iframe {
+		height: 250px;
+		margin-top: 2%
+	}
+	
+	.socialmedia {
+		margin-top: 40%
+	}
+
+	.socialmedia, .copyright {
+		padding: 1%
+	}
+
+	.socialmedia a, .copyright p {
+		font-size: 20px
+	}
+}
